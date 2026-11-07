@@ -140,7 +140,7 @@ footer a{text-decoration:none}footer a:hover{color:var(--acc)}
 <button class="burger" id="bg" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
 <div class="links" id="lk">
 <a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
-<a class="btn p sm dl" href="Rahul_Sep_26.pdf" download="Rahul_Sep_26.pdf">Download CV</a>
+<a class="btn p sm dl" href="Rahul_Resume.pdf" download="Rahul_Resume.pdf">Download CV</a>
 </div></nav></div></header>
 
 <main>
@@ -149,7 +149,7 @@ footer a{text-decoration:none}footer a:hover{color:var(--acc)}
 <p class="role">Backend Software Engineer</p>
 <h1>Rahul T Sathyan</h1>
 <p class="lead">I'm Rahul T Sathyan, a backend software engineer who builds scalable, reliable systems. I specialise in Java, Spring Boot, and microservices, and I design and deploy cloud-native applications on AWS. I enjoy turning complex business needs into clean, maintainable services.</p>
-<div class="cta"><a class="btn p dl" href="Rahul_Sep_26.pdf" download="Rahul_Sep_26.pdf">Download CV</a><a class="btn s" href="#contact">Contact Me</a></div>
+<div class="cta"><a class="btn p dl" href="Rahul_Resume.pdf" download="Rahul_Resume.pdf">Download CV</a><a class="btn s" href="#contact">Contact Me</a></div>
 <div class="meta"><span>5+ years building high-throughput microservices and distributed systems</span><span>Bengaluru, India</span></div>
 </div>
 <div class="mono rv" aria-label="Monogram RTS">RTS</div>
@@ -207,7 +207,7 @@ footer a{text-decoration:none}footer a:hover{color:var(--acc)}
 <section id="contact"><div class="wrap ct">
 <div class="rv"><div class="eyebrow">06 — Contact</div>
 <p class="big">Hiring for a backend role, or have a system that needs to scale? I'd be glad to hear from you.</p>
-<a class="btn p dl" href="Rahul_Sep_26.pdf" download="Rahul_Sep_26.pdf">Download CV</a></div>
+<a class="btn p dl" href="Rahul_Resume.pdf" download="Rahul_Resume.pdf">Download CV</a></div>
 <div class="rows rv">
 <a href="mailto:rtsofficial462@gmail.com"><small>Email</small><span>rtsofficial462@gmail.com</span></a>
 <a href="tel:+919562498834"><small>Phone</small><span>+91 9562498834</span></a>
@@ -239,8 +239,8 @@ document.querySelectorAll('.dl').forEach(a=>a.addEventListener('click',async e=>
  e.preventDefault();
  try{
   const d=await claude.use("downloads");
-  const r=await fetch('Rahul_Sep_26.pdf');
-  if(d)await d.save({filename:'Rahul_Sep_26.pdf',data:await r.blob()});
+  const r=await fetch('Rahul_Resume.pdf');
+  if(d)await d.save({filename:'Rahul_Resume.pdf',data:await r.blob()});
  }catch(err){}
 }));
 </script>
