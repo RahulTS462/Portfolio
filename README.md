@@ -3,7 +3,7 @@
 Static site, no build step.
 
 - `index.html` — the whole site (HTML, CSS, JS inline)
-- `Rahul_Sep_26.pdf` — CV behind the "Download CV" buttons
+- `Rahul_Resume.pdf` — CV behind the "Download CV" buttons
 
 Open `index.html` in a browser, or upload both files to any static host
 (GitHub Pages, Netlify, Cloudflare Pages, S3).
